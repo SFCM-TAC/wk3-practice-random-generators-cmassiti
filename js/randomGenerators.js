@@ -4,6 +4,7 @@
 // diceRollGenerator and eightBallGenerator.
 function Generator() {
   // YOUR CODE HERE
+  var randomNum = Math.floor((Math.random() * 6) + 1);
 }
 
 // TODO: Initialise diceRollGenerator and eightBallGenerator
@@ -24,7 +25,7 @@ function handleEightBallShake() {
   const resultElement = document.getElementById('eightBallResult');
 
   // TODO: call a method on eightBallGenerator to populate result with a random value
-  const result = "result";
+  const result = "1, 2, 3, 4, 5";
   resultElement.innerHTML = result;
 }
 
